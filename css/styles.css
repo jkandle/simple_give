@@ -5,3 +5,11 @@
 .test {
   top:-1px;
 }
+.panel {
+  background-color: blue;
+  height:350px;
+  margin-top:40px;
+}
+.logo {
+  max-width: 160%;
+}
