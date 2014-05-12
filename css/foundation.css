@@ -1252,7 +1252,10 @@ meta.foundation-mq-topbar {
   height: 45px;
   line-height: 45px;
   position: relative;
+<<<<<<< HEAD
   background: #4ab942 ;
+=======
+>>>>>>> FETCH_HEAD
   margin-bottom: 0; }
   .top-bar ul {
     margin-bottom: 0;
@@ -1514,7 +1517,7 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 40.063em) {
   .top-bar {
-    background: #333333;
+    background: #4ab942;
     *zoom: 1;
     overflow: visible; }
     .top-bar:before, .top-bar:after {
@@ -1533,7 +1536,7 @@ meta.foundation-mq-topbar {
     .top-bar button {
       font-size: 0.875rem;
       position: relative;
-      top: 7px; }
+      /*top: 6px; */}
     .top-bar.expanded {
       background: #333333; }
 
