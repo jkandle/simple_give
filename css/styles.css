@@ -1,0 +1,20 @@
+.topNavbar {
+  background-color:green;
+  height:60px;
+}
+.test {
+  top:-1px;
+}
+.panel {
+  background-color: blue;
+  height:350px;
+  margin-top:40px;
+}
+.columns {
+  border:1px solid green;
+}
+aside button {
+  text-align: center;
+  border:2px solid green;
+  margin:0 auto;
+}
