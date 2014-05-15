@@ -1,3 +1,12 @@
+/*Simple Give Brand Colors
+yellow: #ECDC74;
+green: #4CB748
+blue: #4E82C3;
+gray: #99A3AB;
+purple: #C07BB4;
+*/
+
+
 .topNavbar {
   background-color:green;
   height:60px;
@@ -17,4 +26,25 @@ aside button {
   text-align: center;
   border:2px solid green;
   margin:0 auto;
+}
+h1 img {
+  max-width: auto;
+  height: auto; 
+}
+.top-bar-section ul li > a.button {
+  background-color:#4CB748;
+}
+.content-column {
+  background-color: #4E82C3;
+
+
+}
+div.large-4 h3 {
+  text-align: center;
+}
+h3 {
+  color:white;
+  margin-bottom: 15px;
+}
+
 }
