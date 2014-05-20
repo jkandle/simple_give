@@ -8,7 +8,7 @@ purple: #C07BB4;
 
 
 .topNavbar {
-  background-color:green;
+  /*background-color:green;*/
   height:60px;
 }
 .test {
@@ -26,7 +26,7 @@ div.large-4.footerdiv:nth-child(2) {
   border-right: 2px solid white;
 }
 .columns {
-  border:1px solid green;
+  /*border:1px solid green;*/
 }
 aside button {
   text-align: center;
@@ -140,4 +140,16 @@ aside {
 }
 .top-bar-section ul li > a {
   background-color: #4CB748 !important;
+}
+div.row.button a {
+  color:white;
+}
+.button.alert:hover {
+  background-color: #C07BB4;
+}
+.footer_left {
+  border-right:2px solid white;
+}
+h1.logo img {
+  max-width:200%;
 }
