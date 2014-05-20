@@ -129,6 +129,15 @@ footer div {
 h5 {
   color:white;
 }
-.footerdiv {
-  
+.panel {
+  margin-bottom: 25px;
+}
+.panel_callout {
+  color:black;
+}
+aside {
+  margin:0 0 25px 0;
+}
+.top-bar-section ul li > a {
+  background-color: #4CB748 !important;
 }
