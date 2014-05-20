@@ -21,12 +21,32 @@
       
       <!-- Left give now button -->
       <div class="row button large-offset-2">
-        give now.
+        <a href="#" data-reveal-id="myModal">give now</a>
+        <div id="myModal" class="reveal-modal" data-reveal>
+          <h2>Awesome. I have it.</h2>
+          <p class="lead">Your couch.  It is mine.</p>
+          <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
+          <a class="close-reveal-modal">&#215;</a>
+        </div>
       </div>
         <!-- Right Nav Section -->
         <ul class="right button-group">
-          <li><a href="#" class="button">Sign-up</a></li>
-          <li><a href="#" class="button">Sign-in</a></li>
+          <li><a href="#" data-reveal-id="myModal">Sign-up</a>
+
+          <div id="myModal" class="reveal-modal" data-reveal>
+            <h2>Awesome. I have it.</h2>
+            <p class="lead">Your couch.  It is mine.</p>
+            <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
+            <a class="close-reveal-modal">&#215;</a>
+          </div>
+          </li>
+          <li><a href="#" data-reveal-id="myModal">Sign-in</a>
+            <div id="myModal" class="reveal-modal" data-reveal>
+              <h2>Awesome. I have it.</h2>
+              <p class="lead">Your couch.  It is mine.</p>
+              <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
+              <a class="close-reveal-modal">&#215;</a>
+            </div></li>
           <li><a href="#" class="button">Contact Us</a></li>
           <li class="has-form">
             <div class="row collapse">
@@ -56,49 +76,6 @@
 <!-- First Band (Slider) -->
  
   <div class="row">
-<<<<<<< HEAD
-    <div class="large-8 columns">
-      <ul class="example-orbit" data-orbit>
-        <li>
-          <img src="http://placehold.it/1000x300/A92B48/fff" alt="slide 1" />
-          <div class="orbit-caption">
-            Caption One.
-          </div>
-        </li>
-        <li>
-          <img src="http://placehold.it/1000x300/EE964D/fff" alt="slide 2" />
-          <div class="orbit-caption">
-            Caption Two.
-          </div>
-        </li>
-        <li>
-          <img src="http://placehold.it/1000x300/FDC43D/fff" alt="slide 3" />
-          <div class="orbit-caption">
-            Caption Three.
-          </div>
-        </li>
-      </ul>
-    </div> 
-    <aside class="large-4 columns">
-      <li class="has-form">
-        <div class="row collapse">
-          <div class="large-8 small-9 columns">
-            <input type="text" placeholder="Search Charities">
-          </div>
-          <div class="large-4 small-3 columns">
-            <a href="#" class="alert button expand">Search</a>
-          </div>
-        </div>
-      </li>
-      <h2>A Giving Hope</h2>
-      <p class="panel_callout">Created with the intent of bringing hope to those in need.</p>
-      <button>
-        Learn more.
-      </button>
-
-    </aside> 
-    </div>
-=======
     <div class="large-12 columns">
       <div class="row">
         <div class="large-6 large-offset-7">
@@ -144,7 +121,7 @@
                 </div>
               </li>
               <h2>Giving Hope</h2>
-              <p>Give Simple was created with the intent of bringing hope to those in need, and simplifying the process for those providing it.</p>
+              <p class="panel_callout">Give Simple was created with the intent of bringing hope to those in need, and simplifying the process for those providing it.</p>
               <button class="radius">
                 Learn more.
               </button>
@@ -152,14 +129,13 @@
           </div>
         </div>  
     </div>  
->>>>>>> FETCH_HEAD
   </div>
   
 <!-- Three-up Content Blocks -->
  
   
   <div class="row">
-      <div class="large-3 columns content-column">
+      <div class="large-3 columns large-offset-1 content-column">
         <h3>Browse Charities</h3>
         <img src="images/Browse.png"/>
         <p>Get the low down on 
@@ -172,7 +148,7 @@
 
       </div>
       
-      <div class="large-3 columns content-column">
+      <div class="large-3 columns medium-offset-1 content-column">
         <h3>Donation History</h3>
         <img src="images/History.png" />
         <p>Track every dollar 
@@ -184,7 +160,7 @@
         <br />
       </div>
       
-      <div class="large-3 columns content-column end">
+      <div class="large-3 columns large-offset-1 content-column end">
         <h3>Favorites</h3>
         <img src="images/Star.png" />
         <p>Your favorite charities, all in one convenient location.</p>
