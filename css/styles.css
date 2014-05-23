@@ -240,3 +240,6 @@ ul.inline-list li {
   top:40px;
   position:relative;
 }
+h5>p {
+  color:white;
+}
