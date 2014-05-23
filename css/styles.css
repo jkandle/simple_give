@@ -30,7 +30,6 @@ div.large-4.footerdiv:nth-child(2) {
 }
 aside button {
   text-align: center;
-  border:2px solid green;
   margin:0 auto;
 }
 h1 img {
@@ -183,6 +182,7 @@ h1.logo img {
   color:white;
   height: 50px;
   text-align: center;
+  list-style: none;
 }
 h5 div {
   background-color: black;
@@ -200,7 +200,43 @@ section.footerdiv blockquote {
 }
 .subnav .inline-list {
   text-align: center;
-  background-color: black;
   margin-top:12px;
-  margin: 0 auto;
+  margin-top: 12px;
+  margin-left: 40px;
+  margin-right:100px;
+  display:inline-block;
+}
+ul.inline-list li {
+  margin: 3px 45px 0px;
+}
+.button-group li > button, .button-group li .button {
+  border:none;
+}
+.donors {
+  margin-right: 25px;
+}
+.give_boxes {
+  border:1px solid green;
+  float:right;
+  margin: 32px 12px 0px;
+  font-family:sans-serif;
+  font-size: 48px;
+  padding: 10px;
+}
+.give_boxes_comma {
+  float:right;
+  margin: 50px 6px 0px;
+  font-family:sans-serif;
+  font-size: 48px;
+}
+.given {
+  font-family: garamond;
+  font-size: 48px;
+  font-style: italic;
+  color: green;
+  float:right;
+  margin-top:70px;
+  left:450px;
+  top:40px;
+  position:relative;
 }
