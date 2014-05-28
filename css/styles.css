@@ -158,17 +158,17 @@ h1.logo img {
 .left_block {
   position:relative;
   left:35px;
-  width:27%;
+  /*width:27%;*/
 }
 .middle_block {
   position:relative;
   left:10px;
-  width:27%;
+  /*width:27%;*/
 }
 .right_block {
   position:relative;
   left:0px;
-  width:27%;
+  /*width:27%;*/
 }
   .top-bar .button, .top-bar button {
     margin-top:7px;
@@ -244,6 +244,7 @@ ul.inline-list li {
   top:40px;
   position:relative;
 }
+<<<<<<< HEAD
 div.large-4 p {
   color:white;
 }
@@ -256,3 +257,21 @@ h5 {
   font-size: ;
   text-transform: upp;
 }
+=======
+.footerdiv p {
+  color:white;
+}
+h5 {
+  font-size: 145%;
+  font-style: bolder;
+}
+.subnav a {
+  color: white;
+}   
+.subnav a:hover {
+  color: #4CB748 ;
+}
+.search_button {
+  background-color:#4E82C3 !important;
+  width:40px;
+>>>>>>> FETCH_HEAD
