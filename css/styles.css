@@ -188,15 +188,18 @@ h5 div {
   background-color: black;
 }
 #superdiv {
-  background-color: black;
-  height:45px;
-  width: 45px;
+  background: url(../images/person.jpg);
+  height:125px;
+  width: 85px;
   float:left;
   margin-right:20px;
+  background-repeat: no-repeat;
+  background-position: top;
+
 }
 section.footerdiv blockquote {
-  float:right;
-  width:200px;
+  width:175px;
+  float:left;
 }
 .subnav .inline-list {
   text-align: center;
@@ -205,6 +208,7 @@ section.footerdiv blockquote {
   margin-left: 40px;
   margin-right:100px;
   display:inline-block;
+  background-position: center;
 }
 ul.inline-list li {
   margin: 3px 45px 0px;
@@ -240,6 +244,15 @@ ul.inline-list li {
   top:40px;
   position:relative;
 }
-h5>p {
+div.large-4 p {
   color:white;
+}
+blockquote {
+  margin-top:25px;
+  width:200px;
+}
+h5 {
+  font-style:bolder;
+  font-size: ;
+  text-transform: upp;
 }
