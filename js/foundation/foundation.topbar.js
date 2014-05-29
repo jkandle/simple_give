@@ -1,6 +1,8 @@
 ;(function ($, window, document, undefined) {
   'use strict';
 
+    <input type="text" value="Search Site" onfocus='if(this.value=="name"){this.value="";}' />
+
   Foundation.libs.topbar = {
     name : 'topbar',
 
@@ -419,4 +421,5 @@
 
     reflow : function () {}
   };
+
 }(jQuery, this, this.document));
