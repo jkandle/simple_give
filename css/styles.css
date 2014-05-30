@@ -244,7 +244,6 @@ ul.inline-list li {
   top:40px;
   position:relative;
 }
-<<<<<<< HEAD
 div.large-4 p {
   color:white;
 }
@@ -257,7 +256,6 @@ h5 {
   font-size: ;
   text-transform: upp;
 }
-=======
 .footerdiv p {
   color:white;
 }
@@ -274,4 +272,10 @@ h5 {
 .search_button {
   background-color:#4E82C3 !important;
   width:40px;
->>>>>>> FETCH_HEAD
+}
+button > a {
+  color:white;
+}
+button > a:hover {
+  color:gray;
+}
